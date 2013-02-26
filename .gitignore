@@ -1,0 +1,15 @@
+/**/local.properties
+**/*.class
+**/bin/*
+**/gen/*
+**/.DS_Store
+bin/
+gen/
+.DS_Store
+classes.dex
+.idea/workspace.xml
+out/
+.idea/dictionaries/
+
+/QHotspot/gen
+/QHotspot/.idea/workspace.xml

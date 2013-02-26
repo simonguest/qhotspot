@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="3dip"
+              android:background="@layout/main_background" >
+    <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wifi_dark"
+            android:id="@+id/wifiToggleButton"
+            android:layout_gravity="center"/>
+    <TextView android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:gravity="center_horizontal|top"
+              android:id="@+id/headerText"
+              android:text="Hotspot"
+              android:textSize="5pt"
+              android:paddingTop="3pt"
+              android:textColor="#FFFFFFFF"/>
+    <TextView android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:gravity="center_horizontal|bottom"
+              android:id="@+id/wifiText"
+              android:text="Loading"
+              android:textSize="5pt"
+              android:paddingBottom="3pt"
+              android:textColor="#FFFFFFFF"/>
+</RelativeLayout>
+
